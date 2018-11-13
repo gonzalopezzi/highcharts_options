@@ -31,7 +31,7 @@ class FillColor {
 
 time_series_zoomable (_) async {
   clearOutput();
-  var jsonData = JSON.decode(await HttpRequest.getString('sample_data/time_series_data.json'));
+  var jsonData = jsonDecode(await HttpRequest.getString('sample_data/time_series_data.json'));
 
   ChartOptions chartOptions = new ChartOptions ()
     ..chart = (
