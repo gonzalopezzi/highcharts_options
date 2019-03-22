@@ -1,13 +1,12 @@
 name: highcharts
-version: 0.5.2
+version: 2.0.0
 author: Gonzalo Pezzi <gonzalopezzi@gmail.com>
 description: Highcharts API wrapped via JS interop (js package).
 homepage: https://github.com/gonzalopezzi
 environment:
-  sdk: ">=1.8.0 <2.0.0"
+  sdk: '>=2.0.0 <3.0.0'
 dependencies:
-  polymer: ">=0.15.1 <0.17.0"
-  uuid: '>=0.5.0 <0.6.0'
-  js: "^0.6.0"
+  uuid: any
+  js: any
 dev_dependencies:
-  unittest: any
+  test: ^1.0.0
